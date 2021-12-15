@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100vh;
+    
+    background: rgb(170,110,111);
+background: linear-gradient(0deg, rgba(170,110,111,1) 19%, rgba(242,164,165,1) 81%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inbox{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 16px 16px 5px 3px rgba(0,0,0,0.14);
+-webkit-box-shadow: 16px 16px 5px 3px rgba(0,0,0,0.14);
+-moz-box-shadow: 16px 16px 5px 3px rgba(0,0,0,0.14);
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family:'Times New
+}
+.item input{
+    margin-right: 20px;
+    
+}
+input:checked + p {
+    background: #F9F9F9;
+    text-decoration: line-through;
+}
